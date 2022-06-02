@@ -26,7 +26,7 @@ def get_video_files_in_dir(directory):
     return out
 
 
-avdir = os.path.expanduser("test")
+avdir = os.path.expanduser("test") #le repertoire contenant les videos est nommé 'test'
 files = get_video_files_in_dir(avdir)
 
 if len(files) == 0:
